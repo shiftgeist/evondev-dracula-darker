@@ -2,7 +2,7 @@
   "name": "dracula-high-contrast-darker",
   "displayName": "Evondev Dracula Darker",
   "description": "Dracula Theme High Contrast - base on Dracula Official Theme",
-  "version": "0.2.89-darker",
+  "version": "0.2.89",
   "publisher": "shiftgeist",
   "engines": {
     "vscode": "^1.20.0"
@@ -19,9 +19,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Evondev Dracula Darker minus 1 Contrast New Color",
+        "label": "Evondev Dracula Darker Contrast New Color minus 1",
         "uiTheme": "vs-dark",
-        "path": "./themes/Dracula-darker-minus-1-contrast-new-color.json"
+        "path": "./themes/Dracula-darker-contrast-new-color-minus-1.json"
       }
     ]
   }
