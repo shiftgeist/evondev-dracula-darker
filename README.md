@@ -4,7 +4,7 @@
 
 ![Preview](./preview.png)
 
-> This fork adds "Evondev Dracula Darker Contrast New Color **minus 1**" theme based on "Dracula Darker Contrast New Color" which lowers the (HSL) luminance of backgrounds by 1 (wow 🤯)
+> This fork adds "Evondev Dracula Darker Contrast New Color **minus 1**" theme based on "Dracula Darker Contrast New Color" which lowers the (HSL) luminance of backgrounds by 1 (wow 🤯) <small>(And a fixed version for Dracula Darker Contrast New Color see [fixes](#fork-fixes))</small>
 
 ## Installation
 
@@ -26,25 +26,20 @@ npx vsce package && code --install-extension ./dracula-high-contrast-darker-0.2.
 
 ## Fork Fixes
 
-- [x] Same tab bar background gray -> dark purple
+- [x] Same tab bar background gray -> dark purple (`Evondev Dracula Darker Contrast New Color (fixed)`)
 
-<div style="display: flex;">
-
-![fix 1 before](./screenshots/fix-1-before.png)
-
-![fix 1 after](./screenshots/fix-1-after.png)
-
-</div>
-
-- [x] Add updated screenshot
+  | Before                              | After                              |
+  | ----------------------------------- | ---------------------------------- |
+  | ![](./screenshots/fix-1-before.png) | ![](./screenshots/fix-1-after.png) |
 
 ## Fork Version
 
-This fork aims to be one the same version but under the `-darker` prefix as evondev's.
+This fork aims to be one the same version as evondev's.
 
 ## Scheme color
 
-- Evondev Dracula Darker minus 1 Contrast New Color 🚀
+- Evondev Dracula Darker Contrast New Color minus 1 🚀🔆
+- Evondev Dracula Darker Contrast New Color (fixed) 🚀🔅
 
 ## Evondev's settings.json
 

@@ -22,6 +22,11 @@
         "label": "Evondev Dracula Darker Contrast New Color minus 1",
         "uiTheme": "vs-dark",
         "path": "./themes/Dracula-darker-contrast-new-color-minus-1.json"
+      },
+      {
+        "label": "Evondev Dracula Darker Contrast New Color (fixed)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dracula-darker-contrast-new-color-fixed.json"
       }
     ]
   }
