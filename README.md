@@ -1,10 +1,12 @@
-# Dracula Darker Theme for Visual Studio Code 🧛🏻‍♂️
+# Dracula High Contrast Theme for Visual Studio Code 🧛🏻‍♂️
 
 > This Theme based on [evondev-dracula](https://github.com/evondev/evondev-dracula) which is based on [dracula-official](https://github.com/dracula/dracula-theme) 🙏
 
 ![Preview](./preview.png)
 
-> This fork adds "Evondev Dracula Darker Contrast New Color **minus 1**" theme based on "Dracula Darker Contrast New Color" which lowers the (HSL) luminance of backgrounds by 1 (wow 🤯) <small>(And a fixed version for Dracula Darker Contrast New Color see [fixes](#fork-fixes))</small>
+> This fork adds a variant of background brightness to the theme "Dracula Darker Contrast New Color" with an adjusted lightness of -1% (wow 🤯)
+>
+> <small>And a [fixed version](#fork-fixes) for Dracula Darker Contrast New Color</small>
 
 ## Installation
 
@@ -32,14 +34,16 @@ npx vsce package && code --install-extension ./dracula-high-contrast-darker-0.2.
   | ----------------------------------- | ---------------------------------- |
   | ![](./screenshots/fix-1-before.png) | ![](./screenshots/fix-1-after.png) |
 
-## Fork Version
+## Version
 
 This fork aims to be one the same version as evondev's.
 
 ## Scheme color
 
-- Evondev Dracula Darker Contrast New Color minus 1 🚀🔆
-- Evondev Dracula Darker Contrast New Color (fixed) 🚀🔅
+- Evondev Dracula High Contrast New Color (fixed) ✨
+  - Background: #141523 (20.2% Lightness)
+- Evondev Dracula Darker Contrast New Color minus 1 ✨
+  - Background: #121321 (19.2% Lightness)
 
 ## Evondev's settings.json
 
@@ -54,3 +58,7 @@ This fork aims to be one the same version as evondev's.
 ## Evondev's Font
 
 [SF Mono Ligatures](https://github.com/kube/sf-mono-ligaturized).
+
+## Helper
+
+- [oklch picker](https://oklch.com/) made by @evilmartians ([repo](https://github.com/evilmartians/oklch-picker))
