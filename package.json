@@ -1,6 +1,6 @@
 {
   "name": "dracula-high-contrast-lightness",
-  "displayName": "Evondev Dracula Lightness",
+  "displayName": "Evondev Dracula Darkness",
   "description": "Dracula Theme High Contrast with multiple lightness levels- base on Dracula Official Theme",
   "version": "0.2.89",
   "publisher": "shiftgeist",
@@ -8,7 +8,9 @@
     "vscode": "^1.20.0"
   },
   "scripts": {
-    "package": "npx vsce package"
+    "vsce": "pnpm dlx vsce package",
+    "install": "code --install-extension ./dracula-high-contrast-lightness-0.2.89.vsix",
+    "go": "pnpm run vsce && pnpm run install"
   },
   "repository": {
     "type": "git",
@@ -24,9 +26,29 @@
         "path": "./themes/Dracula-darker-contrast-new-color-fixed.json"
       },
       {
-        "label": "Evondev Dracula Darker Contrast New Color minus 1",
+        "label": "Evondev Dracula Darker Contrast New Color v1 \"Vulcan\"",
         "uiTheme": "vs-dark",
         "path": "./themes/Dracula-darker-contrast-new-color-minus-1.json"
+      },
+      {
+        "label": "Evondev Dracula Darker Contrast New Color v2 \"Tangaroa\"",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dracula-darker-contrast-new-color-minus-2.json"
+      },
+      {
+        "label": "Evondev Dracula Darker Contrast New Color v3 \"Pearl\"",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dracula-darker-contrast-new-color-minus-3.json"
+      },
+      {
+        "label": "Evondev Dracula Darker Contrast New Color v4 \"Midnight\"",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dracula-darker-contrast-new-color-minus-4.json"
+      },
+      {
+        "label": "Evondev Dracula Darker Contrast New Color v5 \"Black\"",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dracula-darker-contrast-new-color-minus-5.json"
       }
     ]
   }
