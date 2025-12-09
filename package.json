@@ -16,7 +16,7 @@
     "type": "git",
     "url": "https://github.com/evondev/evondev-dracula"
   },
-  "icon": "icon.png",
+  "icon": "assets/icon.png",
   "categories": ["Themes"],
   "contributes": {
     "themes": [

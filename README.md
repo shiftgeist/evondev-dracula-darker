@@ -2,7 +2,9 @@
 
 > This Theme based on [evondev-dracula](https://github.com/evondev/evondev-dracula) which is based on [dracula-official](https://github.com/dracula/dracula-theme) 🙏
 
-![Preview](./preview.png)
+![Preview](./assets/preview.png)
+
+![Colors](./assets/colors.png)
 
 > This fork adds variants of background brightness to the theme "Dracula Darker Contrast New Color" with an adjusted lightness
 > You can install this along side `evondev-dracula`
@@ -31,9 +33,9 @@ pnpm dlx vsce package && code --install-extension ./dracula-high-contrast-lightn
 
 - [x] Same tab bar background gray -> dark purple (`Evondev Dracula Darker Contrast New Color (fixed)`)
 
-  | Before                              | After                              |
-  | ----------------------------------- | ---------------------------------- |
-  | ![](./screenshots/fix-1-before.png) | ![](./screenshots/fix-1-after.png) |
+  | Before                         | After                         |
+  | ------------------------------ | ----------------------------- |
+  | ![](./assets/fix-1-before.png) | ![](./assets/fix-1-after.png) |
 
 - [x] Keep the same title bar background for inactive windows
 
