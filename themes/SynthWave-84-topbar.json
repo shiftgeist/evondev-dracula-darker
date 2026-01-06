@@ -42,9 +42,10 @@
     "editor.selectionBackground": "#0026ff69",
     "editor.selectionHighlightBorder": "#ffffff30",
     "editor.selectionHighlightBackground": "#ffffff22",
-    "editor.wordHighlightBackground": "#ff000000",
-    "editor.wordHighlightStrongBackground": "#000",
-    "editor.wordHighlightStrongBorder": "#ffffff80",
+    "editor.wordHighlightBackground": "#0000", // disable
+    "editor.wordHighlightBorder": "#ffffff68",
+    "editor.wordHighlightStrongBackground": "#0000", // disable
+    "editor.wordHighlightStrongBorder": "#ffffff68",
     "editor.inactiveSelectionBackground": "#ffffff20",
     "editorCursor.foreground": "#fff",
     "editor.findMatchBackground": "#40c3ff66",
