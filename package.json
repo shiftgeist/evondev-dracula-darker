@@ -26,29 +26,24 @@
         "path": "./themes/Dracula-darker-contrast-new-color-fixed.json"
       },
       {
-        "label": "Evondev Dracula Darker Contrast New Color v1 \"Vulcan\"",
+        "label": "Evondev Dracula Darker Contrast New Color Darker Bordered",
         "uiTheme": "vs-dark",
-        "path": "./themes/Dracula-darker-contrast-new-color-minus-1.json"
+        "path": "./themes/Dracula-darker-contrast-new-color-darker-bordered.json"
       },
       {
-        "label": "Evondev Dracula Darker Contrast New Color v2 \"Tangaroa\"",
+        "label": "Evondev Dracula Darker Contrast New Color Darkest Border",
         "uiTheme": "vs-dark",
-        "path": "./themes/Dracula-darker-contrast-new-color-minus-2.json"
+        "path": "./themes/Dracula-darker-contrast-new-color-darkest-bordered.json"
       },
       {
-        "label": "Evondev Dracula Darker Contrast New Color v3 \"Pearl\"",
+        "label": "Evondev Dracula Darker Contrast New Color Darkest",
         "uiTheme": "vs-dark",
-        "path": "./themes/Dracula-darker-contrast-new-color-minus-3.json"
+        "path": "./themes/Dracula-darker-contrast-new-color-darkest.json"
       },
       {
-        "label": "Evondev Dracula Darker Contrast New Color v4 \"Midnight\"",
+        "label": "Dark SynthWave '84 Topbar",
         "uiTheme": "vs-dark",
-        "path": "./themes/Dracula-darker-contrast-new-color-minus-4.json"
-      },
-      {
-        "label": "Evondev Dracula Darker Contrast New Color v5 \"Black\"",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Dracula-darker-contrast-new-color-minus-5.json"
+        "path": "./themes/SynthWave-84-topbar.json"
       }
     ]
   }

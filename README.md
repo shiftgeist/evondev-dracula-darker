@@ -2,9 +2,9 @@
 
 > This Theme based on [evondev-dracula](https://github.com/evondev/evondev-dracula) which is based on [dracula-official](https://github.com/dracula/dracula-theme) 🙏
 
-![Preview](./assets/preview.png)
+![Preview](https://raw.githubusercontent.com/shiftgeist/evondev-dracula-darker/main/assets/preview.png)
 
-![Colors](./assets/colors.png)
+![Colors](https://raw.githubusercontent.com/shiftgeist/evondev-dracula-darker/main/assets/colors.png)
 
 > This fork adds variants of background brightness to the theme "Dracula Darker Contrast New Color" with an adjusted lightness
 > You can install this along side `evondev-dracula`
@@ -41,18 +41,20 @@ pnpm dlx vsce package && code --install-extension ./dracula-high-contrast-lightn
 
 ## Scheme color
 
-- Evondev Dracula High Contrast New Color (fixed) ✨
-  - Background: #141523 (20.2% Lightness) `oklch(0.202 0.0279 280.43)`
-- Evondev Dracula Darker Contrast New Color v1 "Vulcan" ✨
-  - Background: #0c0d1a (16.47% Lightness) `oklch(0.1647 0.0279 280.43)`
-- Evondev Dracula Darker Contrast New Color v2 "Tangaroa" ✨
-  - Background: #050611 (12.74% Lightness) `oklch(0.1274 0.0279 280.43)`
-- Evondev Dracula Darker Contrast New Color v3 "Pearl" ✨
-  - Background: #020209 (9% Lightness) `oklch(0.092 0.0279 280.43)`
-- Evondev Dracula Darker Contrast New Color v4 "Midnight" ✨
-  - Background: #010106 (7% Lightness) `oklch(0.07 0.0279 280.43)`
-- Evondev Dracula Darker Contrast New Color v5 "Black" ✨
-  - Background: #000000 (0% Lightness) `oklch(0 0 0)`
+<!--
+0.164 0.0111 268.01
+0.040 0.0200  12.42
+0.202 0.0279 280.43
+-->
+
+- Evondev Dracula Darker Contrast New Color (fixed) ✨
+  - Background: #141523 (0.202 Lightness)
+- Evondev Dracula Darker Contrast New Color Darker Bordered ✨
+  - Background: #0c0d1a (0.1647 Lightness)
+- Evondev Dracula Darker Contrast New Color Darkest ✨
+  - Background: #050611 (0.1274 Lightness)
+- Evondev Dracula Darker Contrast New Color Darkest Border ✨
+  - Background: #050611 (0.1274 Lightness)
 
 ## Version
 
